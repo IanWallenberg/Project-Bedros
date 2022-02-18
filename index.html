@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--Sets the viewport and scale to make it responsive-->
+  <link rel="stylesheet" href="./styles/style.css">
+  <title>Bedros Kabranian</title>
+  <script src="../scripts/script.js"></script>
+ </head>
+
+
+ <body>
+  <nav class="top-bar">
+   <a href="./index.html"><img src="Pictures/Blackgoldminilogo.jpg" 
+    alt="BK mini logo"/></a>
+   <div>
+    <a href="#scrollabout" class="top-bar__link">ABOUT</a>
+    <a href="#scrollclasses" class="top-bar__link">CLASSES</a>    
+    <a href="#scrollphotos" class="top-bar__link">PHOTOS</a>
+    <a href="#scrollcontact" class="top-bar__link">CONTACT</a>
+   </div>
+  </nav>
+  <!--Navbar with links, and if you press the links 
+    they lead you to the specific part of the homepage-->
+  
+    <div class="overlay">
+      <img class="logo" src="Pictures/Bedros logo gold_black.jpg" 
+      alt="LOGO frontpage"/>
+      <img class="behindlogo" src="Pictures/Bedros cross.png" 
+      alt="croissant behind"/>
+    </div>
+    <br>
+    <!--Front cover photo, overlay, two photos combined-->
+    
+    <section><h2 id="scrollabout">"LESS IS BORING"</h2></section>
+    <br>
+<div class="container">
+ <img class="blackphoto" src="Pictures/Blackprofile.jpg" alt="Blackphoto" />
+<div><p class="information">
+  - Ranked 2nd World Baker of the Year 2019 by UIBC<br><br>
+  - International/national Masterclass teacher in Viennoiserie/sweetbread<br><br>
+  - Member in "The Swedish National Baking Team" since 2015<br><br>
+  - World Cup Champion with Stockholm Culinary Team 2014-2018<br><br>
+  - Nordic Champion in baking 2015 (Nordic Bakery Cup)<br><br>
+  - Baker at Roy Fares' American-Swedish fusion sensation Mr. Cake<br><br>
+  - (Individual)Nordic Best Viennese pastry 2015 (Nordic Bakery Cup)<br><br>
+  - Finalist in Swedish "Baker of the year " 2016 (Svenska Mästerskapen)<br><br>
+  - Nordic Champion in baking 2016 (Nordic Bakery Cup)<br>
+  </p></div>
+</div>
+<br>
+<!--The "about section", with a photo next to the information-->
+<br>
+<div class="slideshow-container">
+
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 5</div>
+    <img src="Pictures/Eclairsemla.jpg" style="width:100%">
+    <div class="text">Eclair Semla</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 5</div>
+    <img src="Pictures/Wienerbrödhallon.jpg" style="width:100%">
+    <div class="text">Danish Pastry</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 5</div>
+    <img src="Pictures/Baosemla.jpg" style="width:100%">
+    <div class="text">Bao Semla</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 5</div>
+    <img src="Pictures/Tesseractslide.jpg" style="width:100%">
+    <div class="text">Tesseract Croissant Cube</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">5 / 5</div>
+    <img src="Pictures/Libanonsemla.jpg" style="width:100%">
+    <div class="text">Libanese Semla</div>
+  </div>
+  
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+  </div>
+  <br>
+  
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot" onclick="currentSlide(2)"></span> 
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span> 
+  </div>
+  <br>
+  <!--This over here is the HTML frame for the slideshow, entirely made
+  with different kinds of positioning-->
+
+
+<!--<div class="videoframe" id="scrollclasses"><iframe width="100%" height="518" 
+  src="https://www.youtube.com/embed/2lu1k7vQ-BA" title="YouTube video player" 
+  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+  gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+  The video section-->
+
+ 
+<br>
+    <!--<div class="classcontainer">
+    <img src="Pictures/bedros_2019.jpg" class="bakerphoto">
+    <dl class="classinfo"><dt>Nordic Sweet Bread</dt>
+      <br>
+      <dd>Cinnamon Rolls</dd>
+      <dd>Cardamom buns</dd>
+      <dd>Vanilla twist</dd>
+      <dd>Calmond/Cinnamon braid</dd>
+      <dd>SunBuns</dd>
+      <dd>Brioche/Chocolate Loaf</dd><br>
+      <dt>Classic Laminated Viennoiserie</dt><br>
+      <dd>Croissant</dd>
+      <dd>Pain au chocolat</dd>
+      <dd>Danish</dd><br>
+      <dt>Modern Laminated Viennoiserie</dt><br>
+      <dd>Croissant</dd>
+      <dd>The Cube</dd>
+      <dd>Morning Buns</dd>
+      <dd>Kouign Amann</dd>
+      <dd>Cruffins</dd><br>
+      <dt>Danish</dt><br>
+      <dd>Colored</dd>
+      <dd>Square</dd>
+      <dd>Round</dd><br>
+      <dt>Brioche:</dt><br>
+      <dd>Cube</dd>
+      <dd>Signature knot</dd>
+      <dd>Butterfly</dd>
+      <dd>Colored Loaf</dd></dl></div>
+      Flexbox image combined with list of items-->
+
+  <section id="scrollphotos" class="container2">
+    <div class="item1"><img src="Pictures/Bakerteam.jpg" alt="bakerteam"></div>
+    <div class="item1"><img src="Pictures/Tesseract.jpg" alt="tesseract cube"></div>
+    <div class="item1"><img src="Pictures/Whiteprofile.jpg" alt="white profile"></div>
+    <div class="item1"><img src="Pictures/Bedroswiener.jpg" alt="wiener pastry"></div>
+    <div class="item1"><img src="Pictures/Americansemla.jpg" alt="american semla"></div>
+    <div class="item1"><img src="Pictures/Galette.jpg" alt="Galettederois"></div>
+    <div class="item1"><img src="Pictures/Cinnabun.jpg" alt="cinnamon bun"></div>
+    <div class="item1"><img src="Pictures/Danish2.jpg" alt="Danish pastry"></div>
+  </section>
+  <!--Also flexbox with flex-row to not have to change any media screen-->
+  <br>
+  <br><br>
+  <div id="scrollcontact"> <br>
+  
+  <h3 class="contact">Contact</h3></div>
+  <p class=contactcenter>*Bookings <br>
+   *MasterClasses <br>
+    *Business propositions <br>
+    *Sponsorship <br>
+    *Consulting <br>
+    *Collaborations</p>
+ <div class="contactform">
+
+  <!--header for contact form plus centered paragraphs-->
+    
+    <form action="#" name="contact_form">
+      <label for="first_name">First Name</label>
+      <input name="first_name" type="text" required placeholder="John"/>
+      <br>
+      <label for="last_name">Last Name</label>
+      <input name="last_name" type="text" required placeholder="Doe"/>
+      <br>
+      <label for="email">Email</label>
+      <input name="email" type="email" required placeholder="you@domain.com"/>
+      <br>
+      <label for="message">Message</label><br>
+      <textarea name="message" cols="30" rows="10" placeholder="Enter your message here ..." 
+      required> </textarea>
+      <div class="center">
+        <input type="submit" value="Submit">
+    </form></div>
+    
+    <!--contact form, with labels, input, made into a centered block-->
+  
+  <footer>mail@bedroskabranian.com<br><br>
+      <a href="https://www.instagram.com/bakedbybedros/" target="_blank"><ion-icon class="insta" name="logo-instagram"></ion-icon></a>
+      <a href="https://twitter.com/kabranian" target="_blank"><ion-icon class="twitter" name="logo-twitter"></a></ion-icon>
+      <a href="https://www.facebook.com/bakedbybedros/" target="_blank"><ion-icon class="facebook" name="logo-facebook"></ion-icon></a></footer>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<!--target blank opens up a link in a new tab--->
+<script>
+  showSlides(slideIndex);
+//this here needs to be in the end of the body because it messes up the JS, HTML
+//loads faster than JS and doesn't display the first image of the slideshow
+</script>
+</body>
+</html>

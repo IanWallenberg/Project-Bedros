@@ -1,0 +1,34 @@
+
+@import "variables.scss";
+@import "navigation.scss";
+@import "contact.scss";
+@import "video.scss";
+@import "slideshow.scss";
+@import "start.scss";
+@import "photosection.scss";
+
+/* Applies to the entire body of the HTML document (except where overridden by more specific
+selectors). */
+body, html {
+  min-height: 100%;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+//Here I had height at 100 % before, but it totally fucked up the sticky navbar
+
+body {
+  background-color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 14px;
+  position: relative;
+  
+  
+}
+
+img {
+  width: 100%;
+}
+
+
+/*# sourceMappingURL=style.css.map */
+

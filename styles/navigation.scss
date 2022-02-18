@@ -1,0 +1,77 @@
+// Navigation = Nav bar, top area. Some animations for the links
+
+.top-bar{
+  position: sticky;
+  top: 0;
+  padding: $padding;
+  background-color: $color;
+  z-index: 1;
+  filter: opacity(0.8);
+  
+ //why does not sticky work all the way through??
+ 
+  img{
+    height: 30px;
+    margin: 10px;
+    opacity: 0.9;
+    width: auto;
+    filter: saturate(150%);
+    transition: ease-in 0.3s;
+   }
+   //The small logo in the upper left corner
+
+   img:hover {
+     filter: brightness(150%);
+     transform: scale(1.1);
+     //background-blend-mode: darken; ---- to be continued experimenting with
+   }
+  
+  
+  
+  div{
+    position: absolute;
+    top: 50%;
+    right: $padding;
+    transform: translateY(-50%);
+   }
+ }
+
+
+.top-bar__link {
+  font-weight: lighter;
+  margin-left: 40px;
+  padding-right: 60px;
+  border: solid 4px black;
+  color: darkgoldenrod;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  transition: ease-in 0.3s;
+  text-decoration: none;
+}
+
+.top-bar__link:hover {
+  color: gold;
+}
+
+//changing the color and adjusting to smaller screens
+
+@media screen and (max-width: 750px) {
+.top-bar__link {
+  margin-left: 40px;
+  padding-right: 30px;
+}
+}
+
+@media screen and (max-width: 600px) {
+.top-bar__link {
+  margin-left: 20px;
+  padding-right: 10px;
+}
+}
+
+@media screen and (max-width: 400px) {
+  .top-bar__link {
+    margin-left: 0px;
+    padding-right: 0px;
+    font-size: 80%;
+  }
+  }
