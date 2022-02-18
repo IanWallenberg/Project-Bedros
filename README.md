@@ -1,6 +1,6 @@
 # First project - Project Bedros the Baker 🥐
 
-<p>My first project is a portfolio for my friend and coworker Bedros Kabranien</p><br>
+My first project is a portfolio for my friend and coworker Bedros Kabranien<br>
 I wanted to create a website for people to browse through and see his baked creations, read about his different baking classes, and send class inquiries to him if interested
 <br>
 🥖
