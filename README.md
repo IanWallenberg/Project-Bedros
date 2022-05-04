@@ -14,8 +14,9 @@ It was a very challenging experience, but nevertheless fun<br>
 I got to learn by doing, and understand my way of working with code more<br>
 I haven't revisited the work to keep it as a relic in time, but I will continue working with this project when it becomes more actual, as it was a trial experiment <br>
 🥐
-
+<br>
 Use "sass --watch style.scss style.css" to activate scss
+<br>
 Press Go Live to check out 
 
 ![image](https://user-images.githubusercontent.com/90833604/154693079-65658545-478d-474c-8731-90c0a69582ba.png)
